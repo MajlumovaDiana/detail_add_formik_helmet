@@ -1,0 +1,22 @@
+.OurProgramsTextDiv {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    .OurProgramsText {
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+         h2{
+            font-weight: bolder;
+            font-size: 30px;
+            margin-bottom: 10px;
+         }
+         p{
+            color: gray;
+         }
+    }
+}

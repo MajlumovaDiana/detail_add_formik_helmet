@@ -1,0 +1,42 @@
+.EducationIsLife{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    .EducationIsLife_ImgAndText{
+        width: 80%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        align-items: center;
+        .EducationIsLife_Img{
+            background-image: url("https://preview.colorlib.com/theme/oneschool/images/undraw_teacher.svg");
+            width: 50%;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+        .EducationIsLife_Text{
+            width: 30%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            h4{
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+            p{
+                margin-bottom: 10px;
+                color: gray;
+            }
+            .iconAndspan{
+                margin-bottom: 10px;
+                color: rgb(114, 33, 171);
+                span{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

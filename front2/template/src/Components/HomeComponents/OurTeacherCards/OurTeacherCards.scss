@@ -1,0 +1,38 @@
+.teacherCards {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+    .therecards {
+        width: 20%;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+        text-align: center;
+
+        .card {
+            width: 90%;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            border: 1px gray solid;
+            cursor: pointer;
+            &:hover{
+                border: 2px orangered solid;
+            }
+            h1 {
+                margin-bottom: 15px;
+                margin-top: 40px;
+                
+            }
+
+            h3 {
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.home_backround {
+    background-color: rgb(27, 93, 155);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgb(48, 47, 47),
+        rgba(41, 41, 41, 0.479)
+      ),
+      url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    .home_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      justify-content: center;
+      .text {
+        width: 35%;
+        height: 250px;
+        margin: 0 auto;
+        h1{
+          color: white;
+          font-size: 25px;  
+          margin-bottom: 10px;
+        }
+        p{
+          color: white;
+          font-size: 17px;
+          margin-bottom: 10px;
+        }
+      }
+      .home_btn{
+        button{
+          border-radius: 25px;
+          width: 150px;
+          background-color: rgb(63, 5, 129);
+          border: 0px;
+          cursor: pointer;
+        }
+        p{
+             font-size: 15px;
+        }
+      }
+    }
+  }
+  
